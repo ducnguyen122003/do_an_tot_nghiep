@@ -1,0 +1,22 @@
+# Build output and dependencies
+**/node_modules/
+**/dist/
+**/target/
+**/coverage/
+*.log
+
+# Local configuration; keep examples in Git
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
