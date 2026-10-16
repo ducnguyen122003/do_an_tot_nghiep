@@ -1,0 +1,23 @@
+name: Công việc
+description: Tính năng hoặc công việc cần thực hiện
+title: "[Task] "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Mục tiêu
+      description: Người dùng cần làm được gì? Công việc thuộc FE, BE hay cả hai?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Tiêu chí hoàn thành
+      description: Liệt kê hành vi và tình huống cần kiểm tra.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Phụ thuộc và ghi chú
+      description: API, màn hình, dữ liệu hoặc công việc liên quan.
